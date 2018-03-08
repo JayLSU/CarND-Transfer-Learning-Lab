@@ -3,7 +3,9 @@ import tensorflow as tf
 import numpy as np
 from keras.layers import Input, Flatten, Dense
 from keras.models import Model
+import win_unicode_console
 
+win_unicode_console.enable()
 flags = tf.app.flags
 FLAGS = flags.FLAGS
 
